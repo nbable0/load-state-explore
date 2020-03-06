@@ -85,3 +85,26 @@ h2 {
       outline: none;
       cursor: pointer;
   }
+
+  /*********************************** Tablet & Mobile  ***************************************************************************/
+
+@media (max-width: 1000px) {
+
+    .modal-content {
+        width: 72vw;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+
+    .modal-content {
+        font-size: 1.6em;
+    }
+
+    .load-copy {
+        font-size: 16px;
+    }
+
+}
