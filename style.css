@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    /*font-family: proxima-nova,system,-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif;*/
+    font-size: 16px;
+}
+
+.loader-div {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.loader-div-1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    margin: 8px;
+    background-color: #E1F1FF;
+}
+
+.load-anime {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.load-copy {
+    margin-bottom: 64px;
+    text-align: center;
+    margin-top:40px;
+    font-size: 18px;
+}
+
+h2 {
+    margin: 8px;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+/***************Modal stuff**************/
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    border-radius: 8px;
+    margin: 12% auto;
+    padding: 20px;
+    width: 40vw;
+    height: 40vh;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  button {
+      text-decoration: none;
+      vertical-align: top;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-transition: .15s;
+      transition: all .15s;
+      width: auto;
+      height: 35px;
+      line-height: 33px;
+      padding: 0 20px;
+      border: 0px solid #0077db;
+      border-radius: 5px;
+      font-family: proxima-nova,system,-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      color: #0077db;
+      background-color: transparent;
+      margin-top: 72px;
+      outline: none;
+      cursor: pointer;
+  }
