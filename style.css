@@ -101,6 +101,7 @@ h2 {
 
     .modal-content {
         font-size: 1.6em;
+        width: 80vw;
     }
 
     .load-copy {
